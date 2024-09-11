@@ -1,62 +1,185 @@
-java c 
-STAT 30100-Elementary Statistical Methods 
-Course Description 
-Introduction to statistical methods with applications to diverse fields.Emphasis on understanding and interpreting standard techniques.Data analysis for one and several variables,design of samples and experiments,basicprobability,sampling distributions,confidence intervals and significance tests for means,correlation,and regression.Software is used throughout.For statistics majors and minors, credit should be allowed in no more than one of STAT 30100,30301,35000,35500,50100,and in no more than one of STAT 50300 and STAT 51100.
-Course Learning Outcomes 
-By the end of this course students will be prepared to:
-●       Explain the relevance of a well-planned research study
-·    Extract the information contained in a data set
-Evaluate the results of a statistical analysis
-Technical Requirements The following information has been provided to assist you in preparing to use technology successfully.
-Internet  access/connection:high   speed  recommended
-Headset/Microphone(required for synchronous sessions)
-Access to SPSS program (see note later in syllabus)
-Registration with WebAssign online homework platform($5ofee,please see link in
-Brightspace to register)
-·A scientific calculator(graphing calculator is OKbut not necessary).
-For online exams(distance students only)-Online proctoring requires students to have:
-o    Windows:10,8,7./Mac:OSX10.12     orhigher./iOS:10.0+(iPad     only-must have a compatible LMS integration).
-o A broadband internet connection
-Learning Resources and Texts Required Textbook 
-“Introduction to the Practice of Statistics”_by Moore,McCabe and Craig(Freeman).No need to purchase online access from publisher (just the book,none of the extras).
-OFFICE HOURS/STAT HELP RO0M 
-Assistance with course assignments and material is available each week through Office Hours(Online and In Person-MATH206/211).A schedule of weekly availability is posted under“Where to get help”in Brightspace.Students may speakwith any instructor or TAwhen one is available.
-OnlinePlatforms 
-WebExis a platform. used by some of the instructors and TAs to hold virtual meetings.Some use Zoom orTeams.When someone is available,type or click the address of that person into an internet browser and follow the prompts.Be aware of your surroundings when connecting to virtual office hours using a webcam and microphone.
-GRADES 
-Course grades are determined accordingto the following components,which are weighted as shown.
-Homework 15% 
-Quizzes       and/orAttendance 5% 
-Labs 20% 
-Peer ReviewWritten Assignment 10%  
-Data Science Project  20%  
-Exams(Two midterms) 30%  
-Total 100% Final Calculated Grade (Brightspace Column) Letter Grade 100-96.5 A+ 96.49-93.5 A 93.49-89.5 A- 89.49-86.5 B+ 86.49-83.5 B 83.49-79.5 B- 79.49-76.5 C+ 76.49-73.5 C 73.49-69.5 C- 69.49-66.5 D+ 66.49-63代 写STAT 30100 - Elementary Statistical MethodsSQL
-代做程序编程语言.5 D 63.49-59.5 D- 59.49-0 F 
-SPSS 
-Lab activities and some homework assignments utilize the statistical package SPSS.Youwill need to have access to this programto complete labs and some homework assignments. Attempt  to  get 
-access to SPSS immediately.Failure to be ready and have access to SPSS does not excuse you from deadlines. 
-There are two ways to access SPSS:
-1.Computer Labs:SPSS is installed in every ITaP computer lab on campus.
-2.Personal install:SPSS can be installed on a personally owned computer via Community Hub at: https://communityhub.purdue.edu/storefront/ .
-Contact itap@purdue.edu for problems using SPSS on Software Remote,or issues with downloading  and  installing the software on personally owned computers. 
-HOMEWORK..   ................ 15%of final grade 
-Homework assignments are completed online through theWebAssign homework system and are due by 11:59 pm Eastern Time(ET)on the dates listed in the course schedule.You must register with WebAssign (there is a registration fee)to complete the homework.
-● Pay attention to deadlines.If you miss a deadline,you can request an extension through WebAssign without emailingyour instructor for a 10%penalty to any 
-unfinished  questions.If  you  need an extension beyond 24 hours,you will need to email your instructor.These are granted on a case-by-case basis. 
-EXTRA CREDIT-If you complete the homework more than 24 hours before it is due,you will get an extra 10%added to your homework grade.
-As you work the homework problems,you have the ability to try each problem more than once for credit,and sometimes several times.Pay attention to the number of attempts as you are
-working through the problems.Multiple choice answers can be attempted twice generally. Numerical problems generally allow more attempts.
-Your 2 lowest homework  scores  are  dropped from your final grade calculation (score by percent,not points).The Brightspace gradebook removes your lowest percent scores when
-calculating your current grade.It is highly recommended that you do all the homework!
-LABS... ........................................ ..20%of final grade 
-●      Labs will be available on Brightspace to be downloaded from the Lab module(or in
-WebAssign)by 6am on the Monday of each week.They must be completed and submitted online through Brightspace(or WebAssign)by Friday at 11:59 pm ET.
-Labs are graded by your recitation TA.Any grade disputes should be directedtowards your TA. Any lab submitted after the deadline but within 24 hours will have a 30%deduction(6 
-points out of20). 
-No labs will be accepted after Saturday at 11:59 PM ET.
-Your lowest lab score is dropped from your final grade calculation.The Brightspace
-gradebook removes your lowest score when calculating your current grade. You have one week after your lab is graded to dispute the score.
+java c
+BUSANA 7003 – Business Analytics Project 
+Data description.
+There are three datasets associated with this project:
+1. Stock_data_part1.xlsx
+- Contains daily data on US stocks and ETFs, over the period 20/08/2019 - 20/08/2020
+- Variables:
+Variable                           Definition                          Units of measurement
+PERMNO
+PERMCO is a unique permanent identifier assigned by CRSP to all companies with issues on a CRSP file. This number is permanent for all securities issued by this company regardless of name changes. The mnemonics PERMCO and COMPNO are interchangeable. If the value in this field is less than 20,000, CRSP has used the Nasdaq-assigned Company Number, for when the company had an issue trading on The Nasdaq Stock Market (SM). A value over 20,000 indicates that the number was assigned by CRSP.
+Date
+date the variable is observed
+TICKER
+ticker (security identifier)
+SHRCD
+SHRCD is a two-digit code describing the type of shares traded. The first digit describes the type of security traded.
+First Digit - Share Code - Security Type
+Code Definition
+1 Ordinary Common Shares
+2 Certificates
+3 ADRs (American Depository Receipts)
+4 SBIs (Shares of Beneficial Interest)
+7 Units (Depository Units, Units of Beneficial Interest, Units of
+Limited Partnership Interest, Depository Receipts, etc.)
+Note: "Units" (code 7) does not represent combinations of common stock and anything else, such as warrants. The second digit gives more detailed information about the type of security traded. Second Digit - Share Code - Security Type
+Code    Definition
+0 Securities which have not been further defined.
+1 Securities which need not be further defined.
+2 Companies incorporated outside the US
+3 Americus Trust Components (Primes and Scores).
+4 Closed-end funds.
+5 Closed-end fund companies incorporated outside the US
+8 REIT's (Real Estate Investment Trusts).
+For example: A SHRCD of 14 would represent ordinary common shares of a closed-end fund.
+COMNAM     Company Name
+PERMCO      CRSP Permanent Company Number
+BIDLO
+Bid or Low Price. Daily: Bid or Low Price is the lowest trading price during the day, or the closing bid price on days when the closing price is not available. The field is set to zero if no Bid or Low Price is available.
+USD
+ASKHI
+Ask or High Price is the highest trading price during the day, or the closing ask price on days when the closing price is not available. The field is set to zero if no Ask or High Price is available. If the Price or Bid/Ask Average is negative, this field contains the closing ask. If positive, the field contains the highest trade.
+USD
+PRC
+Prc is the closing price or the negative bid/ask average for a trading day. If the closing price is not available on any given trading day, the number in the price field has a negative sign to indicate that it is a bid/ask average and not an actual closing price. Please note that in this field the negative sign is a symbol and that the value of the bid/ask average is not negative.
+If neither closing price nor bid/ask average is available on a date, prc is set to zero. In a monthly database, prc is the price on the last trading date of the month. The price series begins the first month-end after the security begins trading and ends the last complete month of trading.
+USD
+VOL
+VOL is the total number of shares of a stock sold on day I. It is expressed in units of one share, for daily data, and on hundred shares for monthly data. Our data source for NYSE/AMEX reports the number rounded to the nearest hundred. For example, 12,345 shares traded will be reported on the Nasdaq Stock Exchange as 12,345 and on the NYSE or AMEX exchanges as 12,300. Volume is set to -99 if the value is missing. A volume of zero usually indicates that there were no trades during the time period and is usually paired with bid/ask quotes in price fields.
+Number of shares (for daily data)
+RET
+A return is the change in the total value of an investment in a common stock over some period of time per dollar of initial investment. RET(I) is the return for a sale on day I. It is based on a purchase on the most recent time previous to I when the security had a valid price. Usually, this time is I - 1.
+Missing Return Codes
+RET(t) Reason For Missing Return
+-66.0 more than 10 periods between time t and the time of the preceding price t?
+-77.0 not trading on the current exchange at time t
+-88.0 no return, array index t not within range of BEGRET and ENDRET
+-99.0 missing return due to missing price at time t fraction
+BID
+Bid is available both daily and monthly for all securities on the three major exchanges: NYSE, AMEX and NASDAQ.
+USD
+ASK
+Ask is available both daily and monthly for all securities on the three major exchanges: NYSE, AMEX and NASDAQ.
+USD
+SHROUT
+SHROUT is the number of publicly held shares, recorded in thousands
+thousands
+OPENPRC Daily open prices are available for securities traded on NYSE, AMEX, and NASDAQ exchanges beginning June 15, 1992. They represent the first trade after market opens. For NYSE, additional daily open prices are available between December 1925 and June 1962.
+USD
+NUMTRD
+Daily: Number of Trades, Nasdaq contains the number of trades made on the Nasdaq Stock Market each date for a security. Trades on all exchanges are connected to Nasdaq’s composite pricing network and all paper trades are included in the count. If the number of trades is unavailable, the field is set to 99.
+number
+sprtrn
+SPRTRN is the return on the Standard  Poor's Composite Index
+fraction
+2. Stock_data_part2.xlsx
+- Contains monthly data on valuation and profitability ratios for US stocks and ETFs, over the period January 2010 – December 2022.
+- Variables:
+Variable                                Definition                             Units of measurement
+public_dat代 写BUSANA 7003 – Business Analytics ProjectPython
+代做程序编程语言e
+Date the data was released
+CAPEI
+Shillers Cyclically Adjusted P/E Ratio, Multiple of Market Value of Equity to 5-year moving average of Net Income
+number
+Bm
+Book / Market ratio, Book Value of Equity as a fraction of Market Value of Equity
+number
+Evm
+Enterprise value multiple, Multiple of Enterprise Value to EBITDA
+number
+Pe_exi
+Price-to-Earnings, excl. Extraordinary Items (diluted)
+number
+dpr
+Dividend payout ratio, Dividends as a fraction of Income Before Extraordinary Items
+number
+npm
+Net Income as a fraction of Sales
+number
+roa
+Return on assets, Operating Income Before Depreciation as a fraction of average Total Assets based on most recent two periods
+number
+roe
+Return on equity, Net Income as a fraction of average Book Equity based on most recent two periods, where Book Equity is defined as the sum of Total Parent Stockholders' Equity and Deferred Taxes and Investment Tax Credit
+number
+roce
+Return on capital employed, Earnings Before Interest and Taxes as a fraction of average Capital
+Employed based on most recent two periods, where Capital Employed is the sum of Debt in Long-term and Current Liabilities and Common/Ordinary Equity
+number
+ptb
+Price to book, Multiple of Market Value of Equity to Book Value of Equity
+number
+divyield
+Dividend Yield, indicated Dividend Rate as a fraction of Price
+number
+ticker
+Ticker (security identifier)
+3. Stock_data_part3.xlsx
+- Contains monthly data on US stocks and ETFs, over the period January 2010 – December 2022.
+- Variables:
+Variable                                      Definition                                Units of measurement
+PERMNO
+PERMCO is a unique permanent identifier assigned by CRSP to all companies with issues on a CRSP file. This number is permanent for all securities issued by this company regardless of name changes. The mnemonics PERMCO and COMPNO are interchangeable. If the value in this field is less than 20,000, CRSP has used the Nasdaq-assigned Company Number, for when the company had an issue trading on The Nasdaq Stock Market (SM). A value over 20,000 indicates that the number was assigned by CRSP.
+Date
+date the variable is observed
+SHRCD
+SHRCD is a two-digit code describing the type of shares traded. The first digit describes the type of security traded.
+First Digit - Share Code - Security Type
+Code             Definition
+1 Ordinary Common Shares
+2 Certificates
+3 ADRs (American Depository Receipts)
+4 SBIs (Shares of Beneficial Interest)
+7 Units (Depository Units, Units of Beneficial Interest, Units of
+Limited Partnership Interest, Depository Receipts, etc.)
+Note: "Units" (code 7) does not represent combinations of common stock and anything else, such as warrants. The second digit gives more detailed information about the type of security traded. Second Digit - Share Code - Security Type
+Code    Definition
+0 Securities which have not been further defined.
+1 Securities which need not be further defined.
+2 Companies incorporated outside the US
+3 Americus Trust Components (Primes and Scores).
+4 Closed-end funds.
+5 Closed-end fund companies incorporated outside the US
+8 REIT's (Real Estate Investment Trusts).
+For example: A SHRCD of 14 would represent ordinary common shares of a closed-end fund.
+TICKER
+ticker (security identifier)
+PERMCO
+CRSP Permanent Company Number
+CUSIP
+CUSIP is the latest eight-character CUSIP identifier for the security through the end of the file.
+HSICIG
+Header Standard Industrial Classification Industry Group. The first three digits of HSICCD-- this refers to an industry group.
+PRC
+Prc is the closing price or the negative bid/ask average for a trading day. If the closing price is not available on any given trading day, the number in the price field has a negative sign to indicate that it is a bid/ask average and not an actual closing price. Please note that in this field the negative sign is a symbol and that the value of the bid/ask average is not negative.
+If neither closing price nor bid/ask average is available on a date, prc is set to zero. In a monthly database, prc is the price on the last trading date of the month. The price series begins the first month-end after the security begins trading and ends the last complete month of trading.
+number
+VOL
+In monthly files, VOL is the sum of the trading volumes during that month. It is expressed in hundreds of shares in monthly files.
+hundreds
+RET
+Holding period return. A return is the change in the total value of an investment in a common stock over some period of time per dollar of initial investment. RET(I) is the return for a sale on day I. It is based on a purchase on the most recent time previous to I when the se curity had a valid price. Usually, this time is I – 1.
+Missing Return Codes
+RET(t) Reason For Missing Return
+-66.0 more than 10 periods between time t and the time of the preceding price t?
+-77.0 not trading on the current exchange at time t
+-88.0 no return, array index t not within range of BEGRET and ENDRET
+-99.0 missing return due to missing price at time t
+fraction
+SHROUT
+SHROUT is the number of publicly held shares, recorded in thousands
+thousands
+SPREAD
+Monthly: Spread Between Bid and Ask is the difference between the closing bid and ask quotes for a security. It's available only when Ask or High Price and Bid or Low Price are available and Closing Price or Bid/Ask Average is a bid/ask average.
+If Closing Price of Bid/Ask Average is zero and Spread between Bid and Ask is negative, the spread represents a Bid or Low Price.
+If Closing Price or Bid/Ask Average is zero and Spread between Bid and Ask is positive, Spread Between Bid and Ask represents an Ask or High Price.
+It is set to zero if unavailable.
+USD
+
+
+
+
 
 
 
